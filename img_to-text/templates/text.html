@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img_text</title>
+    <link rel="stylesheet" href="../static/img/text.css">
+</head>
+<body>
+    <div class="text">
+        <center>
+        <form action="{{url_for('images')}}" method="post" class="form">
+            <h1>COVERT IMAGE TO TEXT</h1>
+            <label for="chooes">CHOOSE IMAGE</label>
+            <input type="file" name="name" id="file" placeholder="choose file">
+            <br>
+            <br>
+            <input type="submit" id="submit" value="submit">
+            <h2>{{pre}}</h2>
+        </form>
+        </center>
+    </div>
+    
+</body>
+</html>

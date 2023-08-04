@@ -1,0 +1,37 @@
+.text{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/static/img/apps.35515.13588125365444647.6d84dfc9-5845-4cbf-9a60-a0767d22fa46.5ba1b6d9-a2e4-4cf6-9298-24b858b2a3e5); 
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+}
+.text h1{
+   position: absolute;
+   left: 520px;
+   top: 100px;
+   font-weight: 900;
+   color: white;
+}
+.text select{
+   position: absolute;
+   left: 700px;
+}
+.text input{
+   position: absolute;
+   left: 700px;
+}
+.text label{
+   position: absolute;
+   left: 550px;
+   color: white;
+}
+.text h2{
+   position: absolute;
+   left: 650px;
+   bottom: 250px;
+   color: white;
+}
+#submit{
+   cursor: pointer;
+}
